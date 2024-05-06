@@ -15,7 +15,6 @@ const Movie = ({item}) => {
   })
 
 const [ like , setLike ] = useState(false)
-const [ save , setSaved ] = useState(false)
 const [ cUser , setCurrentUser ] = useState()
 
 const saveShow = async ()=>{
