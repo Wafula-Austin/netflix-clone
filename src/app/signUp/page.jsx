@@ -37,6 +37,9 @@ const SignUp = () => {
         } catch (error) {
             setError(error.message)
         }
+        if(error == null ){
+            router.push('/')
+        }
     }
 
   return (
